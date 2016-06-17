@@ -23,7 +23,9 @@ int main()
  * *** disassemble (intel syntax):
  *     objdump -M intel -D a.out | grep -A28 main.:
  * 
- * *** disassembly result: 
+ * *** disassembly result
+ * *** (gcc 6.1.1 20160602, Intel i7 64bit x86_64, GNU/Linux 4.6.2-1-ARCH)
+ *
  *     00000000004004a6 <main>:
  *     4004a6:	55                   	push   rbp
  *     4004a7:	48 89 e5             	mov    rbp,rsp
